@@ -1,0 +1,536 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #192f6b;
+}
+
+.menu {
+  background-color: #061663;
+  text-align: center;
+}
+
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.menu ul li {
+  width: 130px;
+  margin: 10px 40px 40px 10px;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu ul li:hover {
+  background-color: gold;
+  border-radius: 5px;
+}
+
+.sub-menu {
+  display: none;
+  border-radius: 15px;
+  z-index: 999;
+}
+
+.menu ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: #061663;
+  margin: 10px 0 0 -50px;
+}
+
+.menu ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px 0 10px 15px;
+}
+
+.menu ul li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+}
+
+.hr {
+  position: absolute;
+  rotate: 90deg;
+  top: 85rem;
+  left: 2rem;
+}
+
+.hr1 {
+  position: absolute;
+  top: 35rem;
+  left: 12rem;
+}
+
+.hr2 {
+  rotate: 90deg;
+  position: absolute;
+  top: 38rem;
+  left:9rem;
+}
+
+.hr3 {
+  rotate: 90deg;
+  position: absolute;
+  top: 38rem;
+  left:38rem;
+}
+.hr4 {
+  rotate: 90deg;
+  position: absolute;
+  top: 38rem;
+  right:14.5rem;
+}
+
+.hr5 {
+  position: absolute;
+  top: 100rem;
+  left: 12rem;
+}
+
+.hr6 {
+  position: absolute;
+  rotate: 90deg;
+  top: 105.5rem;
+  left: 6.7rem;
+}
+
+.hr7 {
+  position: absolute;
+  rotate: 90deg;
+  top: 105.5rem;
+  left: 35rem;
+}
+
+.hr8 {
+  position: absolute;
+  rotate: 90deg;
+  top: 105.5rem;
+  right: 6.3rem;
+}
+
+.hr9 {
+  position: absolute;
+  rotate: 90deg;
+  top: 105.5rem;
+  right: 35rem;
+}
+
+.hr10 {
+  position: absolute;
+  top: 143rem;
+  left: 12rem;
+}
+
+.hr11 {
+  position: absolute;
+  rotate: 90deg;
+  top: 147.8rem;
+  left: 7.2rem;
+}
+
+.hr12 {
+  position: absolute;
+  rotate: 90deg;
+  top: 147.8rem;
+  right: 6.8rem;
+}
+
+.hr13 {
+  position: absolute;
+  rotate: 90deg;
+  top: 167rem;
+  right: 13rem;
+}
+
+.hr14 {
+  position: absolute;
+  rotate: 90deg;
+  top: 167rem;
+  left: 13rem;
+}
+
+.drP {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 50rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drP:hover, .drR:hover, .drA:hover, .drM:hover, .drMa:hover, .drC:hover, .drB:hover, .engrA:hover, .profD:hover, .drAT:hover, .profSJ:hover, .drDJ:hover, .msR:hover, .mrH:hover{
+  scale: 1.2;
+}
+
+.drR {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 40rem;
+  left: 92rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drA {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 40rem;
+  left: 30rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drM {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 40rem;
+  left: 2rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drMa {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 66rem;
+  left: 50.5rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drC {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 110rem;
+  left: 2rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drB {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 110rem;
+  left: 30rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.engrA {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 110rem;
+  right: 30rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.profD {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 110rem;
+  right: 2rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drAT {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 144rem;
+  right: 48rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.profSJ {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 150rem;
+  left: 2rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drDJ {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 150rem;
+  right: 2rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.msR {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 185rem;
+  left: 26rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.mrH {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 185rem;
+  right: 27rem;
+  border: 2px solid #fff;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.drP-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 25rem;
+  height: 8rem;
+  position: relative;
+  top: 19rem;
+  left: 48rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drR-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 25rem;
+  height: 8rem;
+  position: absolute;
+  top: 59rem;
+  right: 4rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drA-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 25rem;
+  height: 8rem;
+  position: absolute;
+  top: 59rem;
+  left: 28rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drM-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 25rem;
+  height: 8rem;
+  position: absolute;
+  top: 59rem;
+  left: 1rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drMa-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 25rem;
+  height: 8rem;
+  position: absolute;
+  top: 85rem;
+  left: 48rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drC-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 129rem;
+  left: 1rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drB-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 129rem;
+  left: 28rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.EngrA-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 129rem;
+  right: 28rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.profD-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 129rem;
+  right: 1rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drAT-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 163rem;
+  right: 47rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.profSJ-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 169rem;
+  left: 1rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drDJ-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 169rem;
+  right: 1rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.msR-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;
+  top: 204rem;
+  left: 25rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.mrH-con {
+  background-image: linear-gradient(#3b5ec5 60%, #0f1e4c 40%);
+  width: 23rem;
+  height: 9.5rem;
+  position: absolute;
+  top: 204rem;
+  right: 25rem;
+  border-radius:20px;
+  z-index: 2;
+}
+
+.drP-con .Name, .drR-con .Name, .drA-con .Name, .drM-con .Name, .drMa-con .Name, .drC-con .Name, .drB-con .Name, .EngrA-con .Name, .profD-con .Name, .drAT-con .Name, .profSJ-con .Name, .drDJ-con .Name, .msR-con .Name, .mrH-con .Name {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 2rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.drP-con .Pos{
+  color: #fff;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 7rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.drR-con .Pos, .drA-con .Pos {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: -4rem;
+  letter-spacing: 3px;
+}
+
+.drM-con .Pos, .drMa-con .Pos, .drC-con .Pos, .drB-con .Pos, .EngrA-con .Pos, .profD-con .Pos, .profSJ-con .Pos, .msR-con .Pos{
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 4rem;
+  letter-spacing: 3px;
+}
+
+.drAT-con .Pos, .drDJ-con .Pos {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 3rem;
+  letter-spacing: 3px;
+}
+
+.mrH-con .Pos {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 4.3rem;
+  letter-spacing: 2px;
+}

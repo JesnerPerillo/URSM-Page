@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('img/test.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.URSLogo {
+  position: absolute;
+  top: 50px;
+  width: 10%;
+  height: 23%;
+  left: 80px;
+  border-radius: 10px;
+}
+
+.menu {
+  background-color: #061663;
+  text-align: center;
+}
+
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.menu ul li {
+  width: 120px;
+  margin: 10px 40px 40px 10px;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu ul li:hover {
+  background-color: gold;
+  border-radius: 5px;
+}
+
+.sub-menu {
+  display: none;
+  border-radius: 15px;
+}
+
+.menu ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: #061663;
+  margin: 10px 0 0 -50px;
+}
+
+.menu ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px 0 10px 15px;
+}
+
+.menu ul li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+}
+
+.COSLogo {
+  position: absolute;
+  top: 45px;
+  width: 10%;
+  height: 23%;
+  right: 80px;
+  border-radius: 10px;
+}
+
+.hr1 {
+  margin-top: 100px;
+  margin-left: 14.5%;
+  background-color: white;
+}
+
+.hr2 {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.School-Name {
+  color: white;
+  margin: 100px 0 0 50px;
+  font-size: 550%;
+  text-align: center;
+  letter-spacing: 20px;
+  line-height: 150px;
+  font-family: 'Electrolize', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.Cos {
+  color: gold;
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: 40px;
+  text-align: center;
+  margin-top: 140px;
+  font-family: 'Electrolize', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+  margin-top: 200px;
+  width: 100%;
+  height: 100vh;
+}

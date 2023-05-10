@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Electrolize', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background-color: #192f6b;
+}
+
+.menu {
+  background-image: linear-gradient(to right,  #061663, #2e749c);
+  text-align: center;
+}
+
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.menu ul li {
+  width: 130px;
+  margin: 10px 40px 40px 10px;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu ul li:hover {
+  background-color: gold;
+  border-radius: 5px;
+  color: black;
+}
+
+.sub-menu {
+  display: none;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.menu ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: #061663;
+  margin: 10px 0 0 -45px;
+}
+
+.menu ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px 0 10px 15px;
+}
+
+.menu ul li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+}
+
+.relative {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.relative2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.pic {
+  background-image: url('img/Aboutbg.jpg');
+  background-size: cover;
+  opacity: 0.3;
+  width: 650px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+
+.pic1 {
+  background-image: url('img/Aboutbg.jpg');
+  background-size: cover;
+  opacity: 0.3;
+  width: 650px;
+  height: 100vh;
+  position: absolute;
+}
+
+.title1 {
+  color: gold;
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  letter-spacing: 20px;
+}
+
+.title2 {
+  color: gold;
+  font-size: 50px;
+  position: absolute;
+  left: 700px;
+  letter-spacing: 20px;
+  top: 30px;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 130px;
+  right: 50px;
+  height: 80vh;
+  width: 1150px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-align: justify;
+}
+
+.text2 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  height: 80vh;
+  width: 1150px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-align: justify;
+}
+
+.main {
+  background-image: url('img/values.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: 10px;
+}
+
+.urs p {
+  background: linear-gradient( white 40%, gold 60%);
+  font-size: 70px;
+  letter-spacing: 20px;
+  padding-top: 0;
+  margin-top: 10px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: gold;
+  letter-spacing: 1px;
+}
+
+.urs {
+  text-align: center;
+}
+
+.pers {
+  margin-top: 60px;
+  width: 400px;
+  height: 70vh;
+  border: 1px solid white;
+  backdrop-filter: blur(5px) brightness(60%);
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.pers .text3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 5px;
+}
+
+.second {
+  margin-top: 60px;
+  width: 400px;
+  height: 70vh;
+  border: 1px solid white;
+  backdrop-filter: blur(5px) brightness(60%);
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.second .text3 {
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.terd {
+  margin-top: 60px;
+  width: 400px;
+  height: 70vh;
+  border: 1px solid white;
+  backdrop-filter: blur(5px) brightness(60%);
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  left: 970px;
+}
+
+.terd .text3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  text-align: start;
+  letter-spacing: 5px;
+}
+
+.port {
+  margin-top: 60px;
+  width: 400px;
+  height: 70vh;
+  border: 1px solid white;
+  backdrop-filter: blur(5px) brightness(60%);
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+}
+
+.port .text3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 3px;
+}

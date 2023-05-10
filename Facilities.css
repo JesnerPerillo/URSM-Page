@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Electrolize', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background-image: url(img/Fbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.menu {
+  background-color: #061663;
+  text-align: center;
+}
+
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.menu ul li {
+  width: 130px;
+  margin: 10px 40px 40px 10px;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu ul li:hover {
+  background-color: gold;
+  border-radius: 5px;
+}
+
+.sub-menu {
+  display: none;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.menu ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: #061663;
+  margin: 10px 0 0 -45px;
+}
+
+.menu ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px 0 10px 15px;
+}
+
+.menu ul li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+}
+
+.main-container0 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 250px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 1rem;
+  left: 17rem;
+}
+
+.main-container0 img {
+  filter: brightness(80%);
+}
+
+.main-container {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 10rem;
+  left: 1rem;
+}
+
+.main-container1 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 15rem;
+  left: 35rem;
+}
+
+.comlab {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container0 p {
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.main-container p, .main-container1 p, .main-container2 p, .main-container3 p, .main-container4 p, .main-container5 p, .main-container6 p, .main-container7 p, .main-container8 p, .main-container9 p{
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  top: 1rem;
+  letter-spacing: 15px;
+}
+
+.main-container .text, .main-container1 .text, .main-container2 .text, .main-container3 .text, .main-container4 .text, .main-container5 .text, .main-container6 .text, .main-container7 .text, .main-container8 .text, .main-container9 .text{
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  top: 3rem;
+  letter-spacing: 15px;
+}
+
+.main-container2 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 20rem;
+  left: 1rem;
+}
+
+.main-container3 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 25rem;
+  left: 35rem;
+}
+
+.main-container4 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 30rem;
+  left: 1rem;
+}
+
+.main-container5 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 35rem;
+  left: 35rem;
+}
+
+.main-container6 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 40rem;
+  left: 1rem;
+}
+
+.main-container7 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 45rem;
+  left: 35rem;
+}
+
+.main-container8 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 50rem;
+  left: 1rem;
+}
+
+.main-container9 {
+  width: 80rem;
+  height: 40rem;
+  padding: 20px 20px 150px 20px;
+  background-color: #fff;
+  position: relative;
+  top: 55rem;
+  left: 35rem;
+}
